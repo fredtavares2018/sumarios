@@ -2,8 +2,8 @@
 
 $host = 'localhost';
 $user = 'root';
-$password = 'Dbpr0gr@d';
-$db_name = 'escolama_emf2023';
+$password = '';
+$db_name = 'localhost_sumario';
 $conn = mysqli_connect($host, $user, $password, $db_name);
 
 
@@ -11,9 +11,9 @@ define('HOST', 'localhost');
 
 define('USER', 'root');
 
-define('PASS', 'Dbpr0gr@d');
+define('PASS', '');
 
-define('DBNAME', 'escolama_emf2023');
+define('DBNAME', 'localhost_sumario');
 
 
 $connx = new PDO('mysql:host=' . HOST . ';dbname=' . DBNAME . ';', USER, PASS);
